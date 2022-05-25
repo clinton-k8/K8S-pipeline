@@ -1,5 +1,5 @@
 ---
-- hosts: k8s-MN
+- hosts: k8s-mn
   become: True
   tasks:
     - name: Install python pip
